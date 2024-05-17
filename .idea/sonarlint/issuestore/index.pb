@@ -1,0 +1,31 @@
+
+C
+appic/appic/asgi.py,8/8/880c5f3fc26ca4a4008646c55f10f0a5624aabeb
+G
+appic/appic/settings.py,b/f/bf9663a869436fb7ff89a221623831a242bee478
+C
+appic/appic/urls.py,d/3/d3d55ac9eecccd0f0e0e4f7a540b56fdd5246a55
+C
+appic/appic/wsgi.py,6/c/6ca431f53776a2263f9b24f139cd8381f0ce5cfb
+?
+appic/manage.py,4/4/44b9fad5fa5a1ce2a492a41df8094cea7304f82e
+>
+pyproject.toml,5/d/5d07e7d72637aa0d59c89d381fe6dc4cf46e2491
+G
+appic/appic/__init__.py,3/9/39c533a46a7f8e690cb679474b11b84617cf1adc
+B
+appic/api/admin.py,d/1/d1cd972df415b38488532c6f8f984dbeda26f8f5
+C
+appic/api/models.py,1/8/18b3ae113105b9e9cc6fa6fc816edc98ccf53ca3
+P
+ appic/api/migrations/__init__.py,1/c/1cb49282e338f01d1fb6667474ec6fda375bf218
+H
+appic/api/serializers.py,8/5/855018eda40eb0d807270370f56bed28d43e3bc0
+B
+appic/api/views.py,6/a/6aa0e74d0bdf2603ffe379450cb23ea74f78f5a1
+A
+appic/api/urls.py,5/b/5b119ec896a60927e9bdcc97f1891a5ece71d3a1
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+;
+poetry.lock,0/0/0068a1506b061a8948c37d78b0dd5697211558d3

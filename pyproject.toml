@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "appic"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+black = "^24.4.2"
+djangorestframework = "^3.15.1"
+django-filter = "^24.2"
+djangorestframework-csv = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
