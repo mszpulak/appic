@@ -60,6 +60,7 @@ class TaskViewSet(viewsets.ReadOnlyModelViewSet):
         instance = TaskReport.objects.create()
         # run task csv_generator.delay(*args)
         # update instance
+        # use X-Forwrded-Host header
         url = self.reverse_action("detail", args=[str(instance.uuid)])
 
         return Response({"url": url})
