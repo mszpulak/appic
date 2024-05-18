@@ -40,19 +40,28 @@ http://127.0.0.1:8000/api/event_perf/?ordering=start
 creating new performance with event and artist:
 
 ```bash
-curl --header "Content-Type: application/json" --request POST --data '{
-"event": {
-    "name": "sdfsfd",
-    "end": "2024-05-17T08:43:04Z"
-},
-"artist": [
-    {
-        "name": "sdfsdf",
-        "music_genre": "RAP"
-    }
-],
-"end": "2024-05-17T08:43:14Z"
+curl --header "Content-Type: application/json" --request POST --data 
+' {
+    "event": "aaaa",
+    "artist": [
+        "aaaaa",
+        "ddddd"
+    ],
+    "start": "2024-05-18T14:44:56Z",
+    "end": "2024-05-18T14:44:57Z"
 }' http://127.0.0.1:8000/api/performance/
+```
+```bash
+curl --header "Content-Type: application/json" --request PUT --data 
+' {
+    "event": "aaaa",
+    "artist": [
+        "aaaaa",
+        "ddddd"
+    ],
+    "start": "2024-05-11T14:44:56Z",
+    "end": "2024-05-11T14:44:57Z"
+}' http://127.0.0.1:8000/api/performance/5/
 ```
 
 

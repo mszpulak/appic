@@ -29,3 +29,7 @@ A
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ;
 poetry.lock,0/0/0068a1506b061a8948c37d78b0dd5697211558d3
+B
+appic/api/tests.py,7/6/76eebecea7b7291b42fe06e2ec16aa264da732cc
+W
+'appic/api/migrations/0002_taskreport.py,3/1/31e44aebe5e527f8e021071c753778e4e208a638

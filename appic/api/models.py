@@ -1,12 +1,13 @@
 from django.db import models
 import datetime
 from django.utils.translation import gettext_lazy as _
+import uuid
 
 
 class Event(models.Model):
     name = models.CharField(max_length=200, unique=True)
-    start = models.DateTimeField(auto_now_add=True)
-    end = models.DateTimeField(default=datetime.datetime.now)
+    start = models.DateTimeField()
+    end = models.DateTimeField()
 
 
 class Artist(models.Model):
@@ -16,7 +17,6 @@ class Artist(models.Model):
 
     name = models.CharField(max_length=200, unique=True)
     music_genre = models.CharField(max_length=200, choices=Genre, default=Genre.RAP)
-    votes = models.IntegerField(default=0)
 
 
 class Performance(models.Model):
@@ -24,5 +24,10 @@ class Performance(models.Model):
         Event, on_delete=models.CASCADE, related_name="performances"
     )
     artist = models.ManyToManyField(Artist)
-    start = models.DateTimeField(auto_now_add=True)
-    end = models.DateTimeField(default=datetime.datetime.now)
+    start = models.DateTimeField()
+    end = models.DateTimeField()
+
+
+class TaskReport(models.Model):
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    result = models.JSONField(null=True)
