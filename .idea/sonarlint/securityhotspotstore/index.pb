@@ -33,3 +33,8 @@ B
 appic/api/tests.py,7/6/76eebecea7b7291b42fe06e2ec16aa264da732cc
 W
 'appic/api/migrations/0002_taskreport.py,3/1/31e44aebe5e527f8e021071c753778e4e208a638
+;
+compose.yml,3/1/31039bcded788fa49a167378a8b1ee509c366f91
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4

@@ -1,0 +1,7 @@
+services:
+  web:
+    image: ${REMOTE_REGISTRY:-127.0.0.1}/appic-web:${NEW_TAG:-latest}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: web

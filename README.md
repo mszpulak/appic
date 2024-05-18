@@ -70,3 +70,12 @@ download CSV
 http://127.0.0.1:8000/api/event/?format=csv
 ```
 
+build image
+```bash
+docker compose build
+```
+
+run scrapper
+```bash
+docker run --rm 127.0.0.1/appic-web
+```
